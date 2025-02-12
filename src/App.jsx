@@ -3,7 +3,13 @@ import { ToastContainer } from "react-toastify";
 import Loading from "./Pages/Loading";
 import "./App.css";
 
-const Home = lazy(() => (import("./Pages/Home")));
+const Home = lazy(() => {
+  return new Promise((resolve) => {
+    setTimeout(() => {
+      resolve(import("./Pages/Home"));
+    }, 1000);
+  });
+});
 
 function App() {
   return (
