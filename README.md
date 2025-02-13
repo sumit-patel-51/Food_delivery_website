@@ -1,8 +1,7 @@
 # React + Vite 
 # JavaScript
 # tailwindcss 
-
-Visit Web Site #[See](https://fooddeliverywebsite-51.netlify.app/)
+#Visit Web Site:- [See](https://fooddeliverywebsite-51.netlify.app/)
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
